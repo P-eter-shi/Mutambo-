@@ -4,65 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University application</title>
-    <link rel="stylesheet" href="ezekiel.css">
+   <style>
+
+ button{height:40px;width:40px;}
+ #mimi{height:60px;width:200px;background-color:rgb(0, 128, 32);border-radius:25px;}
+ a{color:white;font-size:x-large;text-decoration: none;}
+ li{list-style-type:none;}
+ #yeye{height:60px;width:200px;background-color:rgb(0, 128, 32);border-radius:25px;}
+ #yule{height:60px;width:200px;background-color:gold;border-radius:25px;}
+ #huyo{height:60px;width:200px;background-color:peru;border-radius:25px;}
+ #sisi{height:60px;width:200px;background-color:powderblue;border-radius:25px;}
+ #wale{height:60px;width:200px;background-color:orange;border-radius:25px;}
+ table,tr,.picha{border-style: none;padding-left:25ch;margin-top:5ch;}
+ 
+ img{height:80px;width:80px;border-radius:25px;}
+ ul li{ float:right;list-style-type:none;padding-inline:30px;display:inline-block;}
+ .links{color:black;font-size:medium;}
+   </style>
 </head>
+<ul>
+   <li><a class="links" href="" target="_self">Programs</a></li>
+   <li><a class="links" href="" target="_self">Programs</a></li>
+   <li><a class="links" href="" target="_self">Programs</a></li>
+   <li><a class="links" href="" target="_self">Programs</a></li>
+   <li><a class="links" href="" target="_self">Programs</a></li>
+</ul>
 <body>
-    <p>Below is a list of universties ,courses available, field of work and salary payable.</p>
-    <table>
-        <tr>
-            <th>COURSE PROGRAMM</th>
-            <th>UNIVERITY OFFERING</th>
-            <th>AREA OF WORK</th>
-            <th>SALARY IN KSH</th>
-        </tr>
-        <tr>
-            <td>Computer Science</td>
-            <td>MUST<br>
-                JKUAT<br>
-                Coperative<br>
-                MMUST<br>
-                Nairobi University<br>
-            </td>
-            <td>
-                Software Engineer<br>
-                Computer Security Analysit<br>
-                Computer security tutor<br>
-                Web designer<br>
-                Ethical Hacker<br>
 
-            </td>
-            <td>80000</td>
-        </tr>
+    <p>Eligibility course guide.</p>
+    <p>This is a sample of what you are expectd to fill by KUPPS.</p>
+   <table>
     <tr>
-        <td>Engineering(Mechanical and Electric)</td>
-        <td>Nairobi<br>
-            JKUAT<br>
-            KEMU<br>
-            MKU<br>
-            MMUST<br>
-
-        </td>
-        <td>Mechanical engineer instractor<br>
-            Electrician<br>
-            Instrument and control analyst<br>
-        </td>
-        <td>100000</td>
-        <tr>
-            <td>Architecture and Design</td>
-            <td>Maasai Mara<br>
-                MUST<br>
-                Nairobi<br>
-                KU<br>
-                Kibabii<br>
-            </td>
-            <td>Architect firm anlyst<br>
-                Planning and developer<br>
-            
-            </td>
-            <td>120000</td>
-        </tr>
-    </tr>
-    </table>
+             <td class="picha"><img src="mutam.jpg"></td><td><button  id="mimi"type="button" onclick="mutambo"><a href="purchase.html" target="_self">A plus</a></button></td></tr><br>
+             <tr>
+                <td class="picha"><img src="engijose.jpg"></td><td><button  id="yeye"type="button" onclick="mutambo"><a href="purchase.html" target="_self">A- minus</a></button></td></tr><br>
+                 <tr>
+                    <td class="picha"><img src="architect.jpg" ></td><td><button  id="yule"type="button" onclick="mutambo"><a href="purchase.html" target="_self">B+ plus</a></button></td></tr><br>
+                     <tr>
+                        <td class="picha"><img src="business.jpg"></td><td><button  id="huyo"type="button" onclick="mutambo"><a href="purchase.html" target="_self">B plain</a></button></td></tr><br>
+                         <tr>
+                            <td class="picha"><img src="hacker.jpg"></td><td><button  id="sisi"type="button" onclick="mutambo"><a href="purchase.html" target="_self">B- minus</a></button></td></tr><br>
+                             <tr>
+                                <td class="picha"><img src="mwalimu.jpg"></td><td><button  id="wale"type="button" onclick="mutambo"><a href="purchase.html" target="_self">C+ plus</a></button></td></tr><br>
+   </table>
+    <form>
+        <fieldset>
+        
+        First Name:<br>
+        <input type="text" name="First name" value="Peter"></input><br>
+        Other Name:<br>
+        <input type="text" name="other name" value="Mutambo"></input><br>
+        Index Number:<br>
+         <input type="text" name="index number" value="36602137001"></input> <br><br>
+         Grade :<select>
+            <option>A</option>
+            <option>A-</option> 
+            <option>B+</option>
+            <option>B</option>
+            <option>B-</option>
+            <option>C+</option>
+         </select>      
+        </fieldset>
+        <p><b>For you to fill in the KUPPS requirements for your course, you need to have a course code of your course of choice.<br>This website helps you to make better decisions in the choosing and also it checks on your ellibility for the course you want. </b></p><br><br>
+        
+    </form>
+    
     
 </body>
 </html>
